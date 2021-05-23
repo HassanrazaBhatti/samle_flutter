@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sample/screens/mobile_number.dart';
 //import 'package:sample/screens/mobile_number.dart';
-import 'package:sample/screens/otp.dart';
-import 'package:sample/screens/resend_otp.dart';
+//import 'package:sample/screens/mobile_number.dart';
+//import 'package:sample/screens/otp.dart';
+import 'package:sample/screens/product_explore.dart';
+//import 'package:sample/screens/resend_otp.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: EnterMobile(),
+      home: ExploreProduct(),
     );
   }
 }
