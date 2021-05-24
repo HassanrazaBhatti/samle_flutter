@@ -78,7 +78,8 @@ class _SellersState extends State<Sellers> {
                 children: [
                   Container(
                     color: Colors.grey,
-                    height: 150,
+                    //height: 150,
+                     height: MediaQuery.of(context).size.height / 4,
                   ),
                 ],
               ),
@@ -89,11 +90,13 @@ class _SellersState extends State<Sellers> {
                 children: [
                   Container(
                       margin: EdgeInsets.only(left: 1, bottom: 1),
-                      height: 74,
+                      // height: 74,
+                       height: MediaQuery.of(context).size.height / 8,
                       color: Colors.grey),
                   Container(
                       margin: EdgeInsets.only(left: 1, bottom: 1),
-                      height: 75,
+                      // height: 75,
+                       height: MediaQuery.of(context).size.height / 8,
                       color: Colors.grey),
                 ],
               ),
@@ -104,11 +107,13 @@ class _SellersState extends State<Sellers> {
                 children: [
                   Container(
                       margin: EdgeInsets.only(left: 1, bottom: 1),
-                      height: 74,
+                      // height: 74,
+                       height: MediaQuery.of(context).size.height / 8,
                       color: Colors.grey),
                   Container(
                       margin: EdgeInsets.only(left: 1, bottom: 1),
-                      height: 75,
+                      // height: 75,
+                       height: MediaQuery.of(context).size.height / 8,
                       color: Colors.grey),
                 ],
               ),

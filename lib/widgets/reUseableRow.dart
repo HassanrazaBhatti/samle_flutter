@@ -13,19 +13,22 @@ class ReUseableRow extends StatelessWidget {
         Expanded(
             child: Container(
           margin: EdgeInsets.only(right: 1, bottom: 1),
-          height: 100,
+          //height: 100,
+          height: MediaQuery.of(context).size.height / 4,
           color: Colors.grey,
         )),
         Expanded(
             child: Container(
           margin: EdgeInsets.only(right: 1, bottom: 1),
-          height: 100,
+          //height: 100,
+          height: MediaQuery.of(context).size.height / 4,
           color: Colors.grey,
         )),
         Expanded(
             child: Container(
           margin: EdgeInsets.only(bottom: 1),
-          height: 100,
+          // height: 100,
+          height: MediaQuery.of(context).size.height / 4,
           color: Colors.grey,
         )),
       ],
